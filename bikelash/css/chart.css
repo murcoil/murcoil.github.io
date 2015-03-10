@@ -69,8 +69,12 @@ body {
 	    display: table-cell;
 	    padding: 4px;
 	}
-
-
+#conspiracy {
+	    font-size: xx-small
+	    margin: none;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
 
 #bingo-footer {
 	width: 584px;
@@ -79,7 +83,6 @@ body {
 	padding: 0;
     position: relative;
 	overflow: hidden;
-	background: url(../img/animals.png) no-repeat -10px 0;
 }
 #yell-button {
     position: absolute;
