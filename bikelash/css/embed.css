@@ -24,6 +24,12 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
     word-spacing: 1.5px;
     }
+#conspiracy {
+	    font-size: 9px
+	    margin: auto;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
 #navline {
 
     padding-top: 8px;
@@ -75,12 +81,7 @@ body {
     text-decoration: underline;
     color: black;
 }
-	#conspiracy {
-	    font-size: 10px
-	    margin: auto;
-	    text-align: center;
-	    padding: 4px;
-	}
+
 .closebutton{
     position: absolute;
     top: 20px;
