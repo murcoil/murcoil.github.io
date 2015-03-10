@@ -15,7 +15,15 @@
 <script src="js/miso.ds.deps.ie.min.0.2.1.js"></script>
 <script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/buttons.js" type="text/javascript" chartset="utf-8"></script>
-
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
 
 function embedBox() {
@@ -51,7 +59,7 @@ var embed_size = 785;
 <body>
 
 <div id="social">
-    <iframe id="facebook_button" src="http://www.facebook.com/plugins/like.php?app_id=199400463461226&amp;href=http://murcoil.github.io/bikelash/newcard.html&amp;send=false&amp;layout=button_count&amp;width=56&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;" scrolling="no" frameborder="0" style="border:none;margin-right: 5px; overflow:hidden; width:48px; height: 21px; float:right" allowTransparency="true"></iframe>
+    <div class="fb-like" data-href="https://murcoil.github.io/bikelash/newcard.html" data-width="48" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
 	<div id="twitter_button" style="float:right; width:56px; overflow:hidden; margin-right: 5px">
           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://murcoil.github.io/bikelash/newcard.html" data-count="none" data-text="Play bingo with us">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     </div>
@@ -79,7 +87,7 @@ var embed_size = 785;
         </div>
     <div id="tooltip" style="display:none" class="regulartooltip"></div>
     </div>
-<div id="embed">* = UN Conspiracy double point bonus</div>
+<div id="conspiracy" class="">* = UN Conspiracy double point bonus</div>
     <div id="bingo-footer">
     	<a id="yell-link" href="#" onclick="validate_bingo();"><img id="yell-button" src="img/yellbingo_disabled.png"></img></a>
     </div>
