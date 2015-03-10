@@ -75,7 +75,12 @@ body {
     text-decoration: underline;
     color: black;
 }
-
+	.card-text {
+	    font-size: 10px
+	    margin: auto;
+	    text-align: center;
+	    padding: 4px;
+	}
 .closebutton{
     position: absolute;
     top: 20px;
