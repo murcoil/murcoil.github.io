@@ -24,12 +24,7 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
     word-spacing: 1.5px;
     }
-#conspiracy {
-	    font-size: x-small
-	    margin: auto;
-	    text-align: center;
-	    text-transform: uppercase;
-	}
+
 #navline {
 
     padding-top: 8px;
@@ -206,6 +201,12 @@ float: left;
     margin-right: 1px;
 
 }
+p.conspiracy {
+	    font-size: small
+	    margin: auto;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
 #map_canvas img, #map_canvas a {
 	-webkit-touch-callout: none;
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
