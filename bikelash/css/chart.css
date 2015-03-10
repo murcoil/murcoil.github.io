@@ -23,7 +23,7 @@ body {
 		width: 559px;
 		height: 41px;
 		text-indent: -9999px;
-		overflow: hidden;
+		overflow: auto;
 		background: url(../img/header_bingo.png) no-repeat;
 		position: relative;
 		top: 5px;
@@ -34,7 +34,7 @@ body {
 }
 #chart-container {
     width: 584px;
-    height: 590px;
+    height: 570px;
 	margin: 0 auto;
 }
 	.card {
@@ -82,7 +82,7 @@ body {
     margin: 0 auto 18px auto;
 	padding: 0;
     position: relative;
-	overflow: hidden;
+	overflow: auto;
 }
 #yell-button {
     position: absolute;

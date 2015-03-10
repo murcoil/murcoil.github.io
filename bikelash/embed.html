@@ -29,7 +29,7 @@
 function embedBox() {
     var $embedbox = $("#embedbox");
     var $oldopenbox = $openbox;
-    var height = "725";
+    var height = 715;
     if (typeof embed_size !== "undefined")
     {
         height = embed_size;
@@ -51,7 +51,7 @@ var mapdrawn = false;
 var printable = false;
 var basemap_location = "https://murcoil.github.io/bikelash/newcard.html";
 var embedmap_location = "https://murcoil.github.io/bikelash/embed.html";
-var embed_size = 800;
+var embed_size = 700;
 </script>
 
 </head> 
@@ -89,7 +89,7 @@ var embed_size = 800;
         </div>
     <div id="tooltip" style="display:none" class="regulartooltip"></div>
     </div>
-<div id="conspiracy"><p>* = UN Conspiracy double point bonus</p></div>
+<div id="conspiracy" style="font-size:10px"><br/><p>* = UN Conspiracy double points bonus</p></div>
     <div id="bingo-footer">
     	<a id="yell-link" href="#" onclick="validate_bingo();"><img id="yell-button" src="img/yellbingo_disabled.png"></img></a>
     </div>
@@ -164,21 +164,18 @@ var embed_size = 800;
 		<div class="boxtext"><a id="permalink" href="{{permalink}}" target="_blank">{{permalink}}</a>
 		<div class="boxhed"></div>
                 <div class="boxhed">Or share it socially</div>
-            
-        <div class="boxtext" id="twitter-button-holder">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" id="card-tweet" data-text="See my Bingo card" data-url="{{permalink}}" data-count="none" data-hashtags="bikelashbingo">Tweet Your Card</a>
+          <span class="fb-share-button" data-href="{{permalink}}" data-layout="button"></span>   
+        <span class="boxtext" id="twitter-button-holder">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" id="card-tweet" data-text="I'm playing Bikelash Bingo" data-url="{{permalink}}" data-count="none" data-hashtags="bikelashbingo">Tweet Your Card</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>  
-<div class="fb-like" data-href="{{permalink}}" data-width="48" data-layout="button" data-action="false" data-show-faces="false" data-share="true"></div>
-        </div>
-
-        
-
+        </span>
+       
 </script>
+
 <script type="text/x-handlebars-template" id="card-template">
     <div class="card {{chip}}" id="card-{{row}}-{{col}}">
         <div class="card-text">
         {{text}}
-        </div>
     </div>
 </script>
 <script type="text/javascript" src="js/this-chart.js"></script>
